@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সাহিত্য-News</title>
+    
+  <!-- include style  -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+
+  <!-- include bootsrap css -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- inclue font awsome -->
+  <link rel="stylesheet" href="../../assets/css/fontawesome.min.css">
+
+  <!-- bangla font -->
+  <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <style>
+
+
+
+        </style>
+</head>
+<body>
+  
+    <div class="container mainBody">
+        <!-- header part -->
+        <!-- top header -->
+        <div class="overflow-hidden headerTopBox">
+            <div class="row pt-2 ">
+                <div class="col-lg-4 col-sm-12 pb-2 pb-lg-0">
+                    <div class="">
+                        <p id="time" class="d-inline"></p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-12 pb-2">
+                  <form class="example" action="/action_page.php" style="margin:auto;max-width:360px">
+                    <input type="text" placeholder="এখানে লিখুন..." name="search2">
+                    <button type="submit">খুজুন</button>
+                  </form>
+                </div>
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <div class="iconBox d-flex flex-row justify-content-end">
+                        <div class="iconItem">
+                            <a href=""><i class="fa-brands fa-facebook-f text-primary"></i></a>
+                        </div>
+                        <div class="iconItem">
+                            <a href=""><i class="fa-brands fa-twitter text-info"></i></a>
+                        </div>
+                        <div class="iconItem">
+                            <a href=""><i class="fa-brands fa-google-plus-g text-danger"></i></a>
+                        </div>
+                        <div class="iconItem">
+                            <a href=""><i class="fa-brands fa-youtube text-danger"></i></a>
+                        </div>
+                        <div class="iconItem">
+                            <a href=""><i class="fa-brands fa-android text-success"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- end top header -->
+        <!-- logo part -->
+        <div class="container overflow-hidden text-center">
+            <div class="row gx-5 pt-3 ">
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <div class="box">
+                        <a href=""><img src="../../assets/images/logo.gif" class="img-fluid"  alt=""></a>
+                    </div>   
+                </div>
+                <div class="col-lg-8 col-sm-12 pb-2">
+                    <div class="box">
+                        <a href=""><img src="../../assets/images/Ads.jpg" class="img-fluid"  alt=""></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- end logo part -->
+
+
+        <!-- navbar -->
+        <div class="topnav" id="myTopnav">
+            <a href="../../index.html" class="active"><i class="fa-solid fa-house pe-1"></i>প্রচ্ছদ</a>
+            <a href="../../jatio.html">জাতীয়</a>
+            <div class="dropdownManu">
+              <button class="dropbtn">সারাদেশ 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="../../dhaka.html">ঢাকা বিভাগ</a>
+                <a href="../../khulna.html">খুলনা বিভাগ</a>
+                <a href="../../chottogram.html">চট্টগ্রাম বিভাগ</a>
+                <a href="../../barishal.html">বরিশাল বিভাগ</a>
+                <a href="../../maymonsingho.html">ময়মনসিংহ বিভাগ</a>
+                <a href="../../rongpur.html">রংপুর বিভাগ</a>
+                <a href="../../rajsahi.html">রাজশাহী বিভাগ</a>
+                <a href="../../sylhet.html">সিলেট বিভাগ</a>
+              </div>
+            </div> 
+            <a href="../../antorjatik.html">আন্তর্জাতিক</a>
+            <a href="../../rajniti.html">রাজনীতি</a>
+            <a href="../../tottoProjukti.html">তথ্যপ্রযুক্তি</a>
+            <a href="../../binodon.html">বিনোদন</a>
+            <a href="../../kheladhul.html">খেলাধুলা</a>
+            <a href="../../lifeStyle.html">লাইফস্টাইল</a>
+            <a href="../../dhormo.html">ধর্ম</a>
+            <div class="dropdownManu">
+              <button class="dropbtn">আরো 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="ainAdalot.html">আইন আদালত</a>
+                <a href="vromon.html">ভ্রমন</a>
+                <a href="krisiBarta.html">কৃষিবার্তা</a>
+                <a href="motamot.html">মতামত</a>
+                <a href="sasto.html">স্বাস্থ্য</a>
+                <a href="ficher.html">ফিচার</a>
+                <a href="sikkangon.html">শিক্ষাঙ্গন</a>
+                <a href="sahitto.html">সাহিত্য</a>
+                <a href="sompadokio.html">সম্পাদকীয়</a>
+                <a href="sakkatkar.html">সাক্ষাতকার</a>
+                <a href="ortoniti.html">অর্থনীতি</a>
+                <a href="probas.html">প্রবাসের-খবর</a>
+                <a href="chakuri.html">চাকুরি</a>
+              </div>
+            </div> 
+            <a href="../../amaderPoribar.html">আমাদের পরিবার</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+             
+          <!-- end navbar -->
+    <!-- end header part -->
+
+    <!-- main content -->
+           <!-- sirunam -->
+            <div>
+                <div class="content mt-2 d-inline-flex align-text-bottom">
+                    <div class="sironam ">
+                            <p class="d-inline">শিরোনামঃ</p>
+                    </div>
+                    <div class="sironamItem">
+                        <marquee class="" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                            <i class="fa-solid fa-square text-danger"></i><a href=""><p class="d-inline p-2">ইসরায়েলের বিরুদ্ধে শক্ত ব্যবস্থা চায় বাংলাদেশ</p></a>
+                            <i class="fa-solid fa-square text-danger"></i><a href=""><p class="d-inline p-2">পরেরবার এসে দেখে যেওঃ মুশফিক কে মালিক।</p></a>
+                            <i class="fa-solid fa-square text-danger"></i><a href=""><p class="d-inline p-2">ময়মনসিংহে বন্ধুক যুদ্ধে একজন নিহত।</p></a>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+           <!-- end sironam -->
+
+    <!-- start main content -->
+          <div class="pageTopNews mt-4">
+              <div class="row">
+                  <div class="col-lg-8">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="pageNewsHeader">
+                                  <a href="../../index.html"><i class="fa-solid fa-house-chimney"></i></a>
+                                  <span><i class="fa-solid fa-angle-right"></i></span>
+                                  <span>সাহিত্য</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-8 mb-2">
+                            <div class="card box rounded-0 border-0">
+                              <a href=""><img src="../../assets/images/mushfik.jpg" class="newsImage" alt="..."></a>
+                              <div class="newsTitle">
+                                <div class="textin">
+                                  <a class="pagenewsHeading" href="">পরেরবার নিজে এসে দেখে যেও : মুশফিককে মালিক</a>
+                                  <p class="fifty-chars2 mb-0">তিন দফা পাকিস্তান সফরের প্রথম দফায় বুধবার রাতে লাহোর পৌঁছেছে বাংলাদেশ জাতীয় ক্রিকেট দল। নিষেধাজ্ঞার কারণে নেই সাকিব আল হাসান, অবসর নেয়ায় নেই মাশরাফি বিন মর্তুজা। এছাড়া পারিবারিক কারণে পাকিস্তান </p>
+                                  <a class="bistarito text-decoration-none"href="details/details.html">বিস্তারিত...</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="d-flex flex-column mb-3">
+                              <div class="pb-3 pt-0">
+                                  <div class="card boxNews rounded-0 border-0">
+                                      <a href=""><img src="../../assets/images/filding.jpg" class="newsImg" alt="..."></a>
+                                      <div class="">
+                                        <h4><a class="pagelinkNews" href="">টসে জিতে ফিল্ডিংয়ের সিদ্ধান্ত বাংলাদেশের</a></h4>
+                                      </div>
+                                    </div>
+                              </div>
+                              <div class="pb-3 pt-0">
+                                  <div class="card boxNews rounded-0 border-0">
+                                      <a href=""><img src="../../assets/images/filding.jpg" class="newsImg" alt="..."></a>
+                                      <div class="">
+                                        <h4><a class="pagelinkNews" href="">টসে জিতে ফিল্ডিংয়ের সিদ্ধান্ত বাংলাদেশের</a></h4>
+                                      </div>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="row">
+                                  <div class="col-lg-4 col-sm-12">
+                                    <div class="pb-3 pt-0">
+                                      <div class="card boxNews rounded-0 border-0">
+                                          <a href=""><img src="../../assets/images/filding.jpg" class="newsImg" alt="..."></a>
+                                          <div class="">
+                                            <h4><a class="pagelinkNews" href="">টসে জিতে ফিল্ডিংয়ের সিদ্ধান্ত বাংলাদেশের</a></h4>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-sm-12">
+                                    <div class="pb-3 pt-0">
+                                      <div class="card boxNews rounded-0 border-0">
+                                          <a href=""><img src="../../assets/images/filding.jpg" class="newsImg" alt="..."></a>
+                                          <div class="">
+                                            <h4><a class="pagelinkNews" href="">টসে জিতে ফিল্ডিংয়ের সিদ্ধান্ত বাংলাদেশের</a></h4>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-sm-12">
+                                    <div class="pb-3 pt-0">
+                                      <div class="card boxNews rounded-0 border-0">
+                                          <a href=""><img src="../../assets/images/filding.jpg" class="newsImg" alt="..."></a>
+                                          <div class="">
+                                            <h4><a class="pagelinkNews" href="">টসে জিতে ফিল্ডিংয়ের সিদ্ধান্ত বাংলাদেশের</a></h4>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="paginNationNews">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  <div class="d-flex flex-column ">
+                                      <div class="paginationItem p-3 pt-2">
+                                          <div class="row">
+                                              <div class="col-lg-4 col-sm-12">
+                                                  <div class="paginationImg">
+                                                      <a href=""><img src="../../assets/images/bilombo.jpg" class="img-fluid" alt=""></a>
+                                                  </div>
+                                              </div>
+                                              <div class="col-lg-8 col-sm-12">
+                                                  <div class="d-flex flex-column">
+                                                    <div class="newsTitle pb-3">
+                                                      <a class="pagenewsHeading" href="">
+                                                        বিলম্ব নয়, তিন মাসের মধ্যেই ফোর-জি : তারানা</a>
+                                                    </div>
+                                                    <div class="paginationDetails">
+                                                      <p class="mb-0 fifty-chars">তিন দফা পাকিস্তান সফরের প্রথম দফায় বুধবার রাতে লাহোর পৌঁছেছে বাংলাদেশ জাতীয় ক্রিকেট দল। নিষেধাজ্ঞার কারণে নেই সাকিব আল হাসান, অবসর নেয়ায় নেই মাশরাফি বিন মর্তুজা। এছাড়া পারিবারিক কারণে পাকিস্তান </p>
+                                                    </div>
+                                                    <div class="paginationButton">
+                                                      <a href="">বিস্তারিত...</a>
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="paginationItem p-3 pt-2">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="paginationImg">
+                                                  <a href=""><img src="../../assets/images/bilombo.jpg" class="img-fluid" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-sm-12">
+                                                <div class="d-flex flex-column">
+                                                  <div class="newsTitle pb-3">
+                                                    <a class="pagenewsHeading" href="">
+                                                      বিলম্ব নয়, তিন মাসের মধ্যেই ফোর-জি : তারানা</a>
+                                                  </div>
+                                                  <div class="paginationDetails">
+                                                    <p class="mb-0 fifty-chars">তিন দফা পাকিস্তান সফরের প্রথম দফায় বুধবার রাতে লাহোর পৌঁছেছে বাংলাদেশ জাতীয় ক্রিকেট দল। নিষেধাজ্ঞার কারণে নেই সাকিব আল হাসান, অবসর নেয়ায় নেই মাশরাফি বিন মর্তুজা। এছাড়া পারিবারিক কারণে পাকিস্তান </p>
+                                                  </div>
+                                                  <div class="paginationButton">
+                                                    <a href="">বিস্তারিত...</a>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="paginationItem p-3 pt-2">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="paginationImg">
+                                                  <a href=""><img src="../../assets/images/bilombo.jpg" class="img-fluid" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-sm-12">
+                                                <div class="d-flex flex-column">
+                                                  <div class="newsTitle pb-3">
+                                                    <a class="pagenewsHeading" href="">
+                                                      বিলম্ব নয়, তিন মাসের মধ্যেই ফোর-জি : তারানা</a>
+                                                  </div>
+                                                  <div class="paginationDetails">
+                                                    <p class="mb-0 fifty-chars">তিন দফা পাকিস্তান সফরের প্রথম দফায় বুধবার রাতে লাহোর পৌঁছেছে বাংলাদেশ জাতীয় ক্রিকেট দল। নিষেধাজ্ঞার কারণে নেই সাকিব আল হাসান, অবসর নেয়ায় নেই মাশরাফি বিন মর্তুজা। এছাড়া পারিবারিক কারণে পাকিস্তান </p>
+                                                  </div>
+                                                  <div class="paginationButton">
+                                                    <a href="">বিস্তারিত...</a>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="paginationItem p-3 pt-2">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-12">
+                                                <div class="paginationImg">
+                                                    <img src="../../assets/images/bilombo.jpg" class="img-fluid" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-sm-12">
+                                                <div class="d-flex flex-column">
+                                                  <div class="newsTitle pb-3">
+                                                    <a class="pagenewsHeading" href="">পরেরবার নিজে এসে দেখে যেও : মুশফিককে মালিক</a>
+                                                  </div>
+                                                  <div class="paginationDetails">
+                                                    <p class="mb-0 fifty-chars">তিন দফা পাকিস্তান সফরের প্রথম দফায় বুধবার রাতে লাহোর পৌঁছেছে বাংলাদেশ জাতীয় ক্রিকেট দল। নিষেধাজ্ঞার কারণে নেই সাকিব আল হাসান, অবসর নেয়ায় নেই মাশরাফি বিন মর্তুজা। এছাড়া পারিবারিক কারণে পাকিস্তান </p>
+                                                  </div>
+                                                  <div class="paginationButton">
+                                                    <a href="">বিস্তারিত...</a>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                        
+                        <div class="row mt-5 mb-5">
+                          <div class="col-md-12 col-sm-12">
+                            <div class="row paginations">
+                                <div class="col-3">
+                                    <div class="prev">
+                                      <a class="rounded-pill d-none" href=""><i class="fa fa-fast-backward" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="numbering text-center">
+                                      <a class="rounded-pill next" href="" title="prev"><i class="fa fa-backward" aria-hidden="true"></i></a>
+                                        <a class="rounded-pill disable" href="">01</a>
+                                        <a class="rounded-pill" href="">02</a>
+                                        <a class="rounded-pill" href="">03</a>
+                                        <a class="rounded-pill next" href="" title="next"><i class="fa fa-forward" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="prev text-end">
+                                        <a class="rounded-pill" href=""><i class="fa fa-fast-forward" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <!-- start nav tab -->
+                    <div class="tab-header">
+                      <ul class="nav nav-tabs tabHead" id="myTab" role="tablist">
+                            <li class="nav-item topTab " role="presentation">
+                                <button class="nav-link active rounded-0 border-0 check" id="home-tab" data-bs-toggle="tab" data-bs-target="#sorboshes" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">সর্বশেষ আপডেট</button>
+                            </li>
+                            <li class="nav-item topTab" role="presentation">
+                                <button class="nav-link rounded-0  border-0 check" id="profile-tab" data-bs-toggle="tab" data-bs-target="#jonoprio" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">জনপ্রিয় সংবাদ</button>
+                            </li>
+                      </ul>
+
+                      <!-- start sorboshes songbad -->
+                      <div class="tab-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="sorboshes" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                              <div class="d-flex flex-column mainBox">
+                                  <div class="p-2 ps-0 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between align-items-center">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">১</p>
+                                      </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/tabNews.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>পারিলের ঐতিহ্যবাহী নৌকা বাইচ প্রতিযোগীতার আয়োজন</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between align-items-center">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">২</p>
+                                      </div>
+                                      <div class="shorImage ">
+                                          <a class="linkNews" href=""><img src="../../assets/images/tabNews.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>পারিলের ঐতিহ্যবাহী নৌকা বাইচ প্রতিযোগীতার আয়োজন</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">৩</p>
+                                      </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/tabNews.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>পারিলের ঐতিহ্যবাহী নৌকা বাইচ প্রতিযোগীতার আয়োজন</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">৪</p>
+                                      </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/tabNews.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>পারিলের ঐতিহ্যবাহী নৌকা বাইচ প্রতিযোগীতার আয়োজন</h5></a>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">৫</p>
+                                      </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/tabNews.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>পারিলের ঐতিহ্যবাহী নৌকা বাইচ প্রতিযোগীতার আয়োজন</h5></a>
+                                      </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <!-- end sorboshes songbad -->
+
+                          <!--start jonoprio songbad -->
+                          <div class="tab-pane fade" id="jonoprio" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                              <div class="d-flex flex-column mainBox">
+                                  
+                                <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">১</p>
+                                      </div>  
+                                    <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/news-gach.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>গাছ লাগানো কিংবা বাগান করার জন্য উপযুক্ত সময় হচ্ছে এখনই</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">২</p>
+                                      </div>  
+                                    <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/news-gach.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>গাছ লাগানো কিংবা বাগান করার জন্য উপযুক্ত সময় হচ্ছে এখনই</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                      <div class="shortNumbr">
+                                        <p class="mb-0 rounded-pill">৩</p>
+                                      </div>  
+                                    <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/news-gach.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>গাছ লাগানো কিংবা বাগান করার জন্য উপযুক্ত সময় হচ্ছে এখনই</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                        <div class="shortNumbr">
+                                          <p class="mb-0 rounded-pill">৪</p>
+                                        </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/news-gach.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>গাছ লাগানো কিংবা বাগান করার জন্য উপযুক্ত সময় হচ্ছে এখনই</h5></a>
+                                      </div>
+                                  </div>
+
+                                  <div class="p-2 d-flex ps-0 mainBoxItem align-items-center flex-row justify-content-between">
+                                        <div class="shortNumbr">
+                                          <p class="mb-0 rounded-pill">৫</p>
+                                        </div>
+                                      <div class="shorImage">
+                                          <a class="linkNews" href=""><img src="../../assets/images/news-gach.jpg" class=""alt=""></a>
+                                      </div>
+                                      <div class="shortTitle ps-2">
+                                         <a class="linkNews" href=""><h5>গাছ লাগানো কিংবা বাগান করার জন্য উপযুক্ত সময় হচ্ছে এখনই</h5></a>
+                                      </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <!-- end jonoprio songbad -->
+                      </div>
+                  </div>
+                  <!-- end nav tab -->
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <img src="../../assets//images/pageBiggapon.gif" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+    <!-- end main content -->
+
+      <!-- footer start -->
+      <div class="footer mt-4">
+        <div class="footerMain">
+          <div class="row">
+            <div class="">
+              <div class="col-12 footerBox1">
+                <div class="borderS">
+                  <p class="text-center">অফিস : রুম নং :৩৯৪, মুক্তবাংলা শপিং কমপ্লেক্সে (৩য় ফ্লোর) মিরপুর-১, ঢাকা ১২১৬,  মোবাইল নং: 01711000000, ইমেইল: Sales@themesbazar.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="">
+              <div class="col-12 footerBox1">
+                <div class="borderS">
+                  <p class="text-center">অফিস : রুম নং :৩৯৪, মুক্তবাংলা শপিং কমপ্লেক্সে (৩য় ফ্লোর) মিরপুর-১, ঢাকা ১২১৬,  মোবাইল নং: 01711000000, ইমেইল: Sales@themesbazar.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+                <div class="row bottomFooter">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="row">
+                          <div class="col-4">
+                            <div class="footerBox">
+                              <div class="flex flex-column gap-0">
+                                  <div class="footerItem">
+                                      <p><a href="">সারাদেশ</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">ঢাকা বিভাগ</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">রাজশাহী বিভাগ</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                          <div class="col-4 checkP">
+                            <div class="footerBox">
+                              <div class="flex flex-column gap-0">
+                                  <div class="footerItem">
+                                      <p><a href="">সম্পাদকীয়</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">ফটো গ্যালারী</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">ভিডিও গ্যালারী</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="footerBox">
+                              <div class="flex flex-column gap-0">
+                                  <div class="footerItem">
+                                      <p><a href="">জাতীয়</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">আন্তর্জাতিক</a></p>
+                                  </div>
+                                  <div class="footerItem">
+                                    <p><a href="">রাজনীতি</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row logoIcon">
+                              <div class="col-lg-6 col-sm-6 pt-2">
+                                  <a href=""><img src="../../assets/images/logooo.JPG" class="img-fluid" style="height:80px; width:100%;" alt=""></a>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="row  gap-0">
+                                      <div class="col-lg-6 p-0 col-sm-12">
+                                          <div class="footerIcon">
+                                              <div class="d-flex flex-lg-column  flex-sm-row justify-content-center">
+                                                  <div class="IconBox"><a href=""><i class="fa-brands fa-facebook-f pe-1"></i>ফেইসবুক</a></div>
+                                                  <div class="IconBox"><a href=""><i class="fa-brands fa-linkedin-in pe-1"></i>লিঙ্কডইন</a></div>
+                                                  <div class="IconBox"><a href=""><i class="fa-brands fa-google-plus-g pe-1"></i>গুগল প্লাস</a></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6 p-0 col-sm-12">
+                                          <div class="footerIcon p-0">
+                                              <div class="d-flex flex-lg-column  flex-sm-row justify-content-center">
+                                                  <div class="IconBox"><a href=""><i class="fa-brands fa-twitter pe-1"></i>টুইটার</a></div>
+                                                  <div class="IconBox"><a href=""><i class="fa-brands fa-youtube pe-1"></i>ইউটিউব</a></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="bordeEnd">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 bottomBorder p-1 ps-3">© All rights reserved © 2018 NewsFreash</div>
+            <div class="col-lg-6 col-sm-12 text-lg-end text-sm-center rightEnd p-1 pe-3">Site Developed BY <sapn class="markTag"><a href="">IT Lab Solutions Limited</a></span></div>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
+      <div onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-arrow-circle-up text-white text-center"></i></div>
+    
+    </div>
+
+    <!-- iclude js file for bootstrap -->
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/all.min.js"></script>
+    <!-- end iclude js file for bootstrap -->
+
+   
+      <!-- main script -->
+      <script  src="../../assets/js/script.js"></script>
+    
+  <!--     // date time -->
+      <script>
+      const showTime = document.getElementById("time")
+      setInterval(()=>{
+        const news = moment().locale('bn');
+        const startDate = news.format('LLLL');
+        showTime.textContent = startDate;
+      },1000)
+      </script>
+
+<!-- facebook page include -->
+<div id="fb-root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- facebook page include -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=768707484068909&autoLogAppEvents=1" nonce="38OcDWcx"></script>
+
+</body>
+</html>
